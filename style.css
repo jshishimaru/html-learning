@@ -5,29 +5,71 @@
       margin: auto;
 }
 
+
 h2{
     min-width: 286px;
     height: 28px;
     padding-left: 120px;
 }
 
-#head1{
-       margin-top: -220px;
-}
 
 .main_body {
 
    display: flex;
    padding: 0;
    margin-top: 20px;
+   margin-bottom: 550px;
    flex-direction: column;
    background-color: white;
-   min-height: 100%;
-   height: 100%;
-   outline: auto;
+   height: 80%;
    justify-content: space-between;
 }
 
+#box1{
+      display: flex;
+      align-items: flex-end;
+      justify-content: flex-start;
+      height: 288px;
+      color: white;
+      font-family: 'Noto Sans';
+      padding-left: 0px;
+}
+#grp1{
+      align-self: flex-start;
+      font-size: 20px;
+      margin-left: 120px;
+}
+
+#grp2{
+      align-self: center;
+      margin-top: 60px;
+      margin-left: -140px;
+      font-size: 28px;
+      
+}
+#grp3{
+      margin-left: -210px;
+      margin-bottom: 20px;
+}
+
+#para1{
+      width: 1200px;
+      height: 80px;
+      margin: auto;
+      font-size: 16px;
+      line-height: 24px;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      font-family: 'Noto Sans';
+}
+#head1{
+      width: 286px;
+      height: 28px;
+      margin-top: -40ppx;
+}
+#box2{
+      margin-top: 0px;
+}
 .blue_panel{
 
       width: auto;
@@ -40,17 +82,40 @@ h2{
       display: flex;
       height: 466px;
       justify-content: space-around;
-      margin-top: -280px;
+      align-items: center;
       z-index: 2;
+      margin-bottom: -290px;
+}
+.images2{
+      display: flex;
+      height: 466px;
+      justify-content: space-around;
+      align-items: flex-end;
+      z-index: 2;
+      margin-bottom: -240px;
+}
+.images3{
+      display: flex;
+      height: 466px;
+      align-items: flex-end;
+      justify-content: space-around;
+      z-index: 2;
+      margin-bottom: -240px;
 }
 
 
 .infos{
       display: flex;
       justify-content: space-around;
-      margin-top: -200px;
 }
-
+.infos2{
+      display: flex;
+      justify-content: space-around;
+}
+.infos3{
+      display: flex;
+      justify-content: space-around;
+}
 .yellow_line{
        width: 133px;
        height: 4px;
@@ -59,9 +124,7 @@ h2{
 }
 
 
-#box1{
-       height: 288px;
-}
+
 
 h3{
       font-size: 20px;
@@ -71,6 +134,7 @@ h4{
 }
 .pjl{
       margin-left: 10px;
+      font-weight: lighter;
 }
 .icons{
       width: 100px;
@@ -80,28 +144,19 @@ h4{
 
 }
 
-#box2{
-      margin-top: -555px;
-}
+
+
 #head2{
       width: 286px;
       height: 28px;
-      margin-top: -200px;
-}
-#box4{
-       margin-bottom: 741px;
-}
-#para1{
-      width: 1200px;
-      height: 80px;
-      margin: auto;
-      margin-top: -220px;
-      margin-bottom: 0;
-      font-size: 22px;
-      line-height: 24px;
-      
 }
 
+
+
+#header{
+      display: flex;
+      justify-content: space-between;
+}
 
 #iitr_logo{
  
@@ -111,6 +166,24 @@ h4{
        padding-left: 120px;     
 
 }
+
+#leng{
+      display: flex;
+      justify-content: space-between;
+      width: 220px;
+      margin-right: 120px;
+      margin-top: 40px;
+}
+#leng2 a{
+      color: black;
+      text-decoration: none;
+}
+#leng2{
+       display: flex;
+       justify-content: space-between;
+       width: 220px;
+}
+
 
 #single_line{
       width: 1200px;
@@ -122,14 +195,48 @@ h4{
 }
 
 #navbar{
+        display: flex;
+        justify-content: center;
         width: 1200px;
         height: 18px;
         margin: auto;
         margin-top: 21px;
-        outline: solid 1px blue;
+}
+.navigationbar{
+      display: flex;
+      justify-content: space-between; 
+      width: 1200px;
+      align-items: center;
+}
+.navigationbar a{
+      color: black;
+      text-decoration: none;
+}
+#bottom_links{
+      display: flex;
+      justify-content: space-around;
+      margin-bottom: 0px;
+      margin-top: -500px ;
+
 }
 
+#quick_actions{
+      display: flex;
+      flex-direction: column;
+      height: 250px;
+      justify-content: space-between;
 
+}
+#quick_actions a{
+     color: black;
+     text-decoration: none;
+}
+
+#rect{
+      width: 280px;
+      height: 172px;
+      background-color: grey;
+}
 
 #copyright{
       padding-left: 122px;
@@ -146,3 +253,4 @@ h4{
       background-color: rgb( 231,231 ,231,1);
 
 }
+
