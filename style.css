@@ -1,0 +1,148 @@
+ body,html{
+      height: 3140px;
+      width: 1440px;
+      padding: 0;
+      margin: auto;
+}
+
+h2{
+    min-width: 286px;
+    height: 28px;
+    padding-left: 120px;
+}
+
+#head1{
+       margin-top: -220px;
+}
+
+.main_body {
+
+   display: flex;
+   padding: 0;
+   margin-top: 20px;
+   flex-direction: column;
+   background-color: white;
+   min-height: 100%;
+   height: 100%;
+   outline: auto;
+   justify-content: space-between;
+}
+
+.blue_panel{
+
+      width: auto;
+      height: 215px;
+      background-color: rgb(81, 131, 184);
+
+}
+
+.images{
+      display: flex;
+      height: 466px;
+      justify-content: space-around;
+      margin-top: -280px;
+      z-index: 2;
+}
+
+
+.infos{
+      display: flex;
+      justify-content: space-around;
+      margin-top: -200px;
+}
+
+.yellow_line{
+       width: 133px;
+       height: 4px;
+       margin-left: 20px;
+       background-color: rgb(255, 213, 61,1);
+}
+
+
+#box1{
+       height: 288px;
+}
+
+h3{
+      font-size: 20px;
+}
+h4{
+      font-size: 16px;     
+}
+.pjl{
+      margin-left: 10px;
+}
+.icons{
+      width: 100px;
+      height: 24px;
+      margin-left: 40px;
+      margin-top: 20px;
+
+}
+
+#box2{
+      margin-top: -555px;
+}
+#head2{
+      width: 286px;
+      height: 28px;
+      margin-top: -200px;
+}
+#box4{
+       margin-bottom: 741px;
+}
+#para1{
+      width: 1200px;
+      height: 80px;
+      margin: auto;
+      margin-top: -220px;
+      margin-bottom: 0;
+      font-size: 22px;
+      line-height: 24px;
+      
+}
+
+
+#iitr_logo{
+ 
+       width: 431.25px;
+       max-height: 60px;
+       padding-top: 40px;
+       padding-left: 120px;     
+
+}
+
+#single_line{
+      width: 1200px;
+      height: 0px;
+      margin: auto;
+      margin-top: 90px;
+      align-self: center;
+      border: solid 1px rgb(128, 179, 217 ,1);
+}
+
+#navbar{
+        width: 1200px;
+        height: 18px;
+        margin: auto;
+        margin-top: 21px;
+        outline: solid 1px blue;
+}
+
+
+
+#copyright{
+      padding-left: 122px;
+      align-self: stretch;
+      height: 36px ;  
+      color: white;
+      background-color: rgb( 35,35 ,35,1);
+} 
+
+#privacy_policy{
+      padding: 0;
+      align-self: stretch;
+      height: 36px;
+      background-color: rgb( 231,231 ,231,1);
+
+}
