@@ -34,6 +34,9 @@
      <div id="single_line"></div>
 
      <div id="navbar"> 
+        <div onclick="showsidebar()" id="menubutton">
+            <img src = "images/menu.png" width="20px" height="20px" >
+        </div>
         <nav>
             
             <div class = "navigationbar">
@@ -74,11 +77,83 @@
                         <img src = "images/Vector.png">
                 </div>
             </div> 
+
+          
+            <div class = "sidebar">
+                <div onclick="hidesidebar()" id="closebutton">
+                        <img src = "images/close.png" width="20px" height="20px" >
+                </div>
+                <div>
+                        <br>
+                        <a href = "#">INSTITUTE</a>
+                        <img src = "images/Vector.png">
+                    
+                </div>
+                <div>
+                    
+                        <a href = "#">ADMISSIONS</a>
+                        <img src = "images/Vector.png" alt="">
+                    
+                </div>
+                <div>
+                    
+                        <a href = "#">ACADEMICS</a>
+                        <img src = "images/Vector.png">
+                    
+                </div>
+                <div>
+                    
+                        <a href = "#">CAMPUS LIFE</a>
+                        <img src = "images/Vector.png">
+                    
+                </div>
+                <div>
+                    
+                        <a href = "#">DEPARTMENTS</a>
+                        <img src = "images/Vector.png">
+                    
+                </div>
+                <div>
+                    
+                        <a href = "#">RESEARCH</a>
+                        <img src = "images/Vector.png">
+                    
+                </div>
+                <div>
+                    
+                        <a href = "#">CAREERS</a>
+                        <img src = "images/Vector.png">
+                    
+                </div>
+                <div>
+                    
+                        <a href = "#">PLACEMENTS</a>
+                        <img src = "images/Vector.png">
+                    
+                </div>
+                <div>
+                    
+                        <a href = "#">RESOURCES</a>
+                        <img src = "images/Vector.png">
+                    
+                </div>
+            </div>   
+            
+            <script>
+                function showsidebar(){
+                  const sidebar = document.querySelector('.sidebar');
+                  sidebar.style.display = 'flex';
+                }
+                function hidesidebar(){
+                  const sidebar = document.querySelector('.sidebar');
+                  sidebar.style.display = 'none';
+                }
+            </script>
            
     
         </nav>
      </div>
-     
+ 
 <div class="main_body">
     
     
@@ -93,6 +168,7 @@
             <p>Get to know the developers and designers behind the website!</p>
         </div>
     </div>
+
     <div id = "para1">
         <p>
             Building technology infrastructure for the campus requires the collaborative efforts of a diverse team with complementary skills and expertise. The team plays a crucial role in ensuring the infrastructure's successful development, implementation, and maintenance, which is essential for supporting the campus community's needs and enhancing their overall experience.
@@ -100,9 +176,16 @@
     </div>
     <div id="head1"> <h2>DESIGNERS</h2> </div>
     <div class = "images">
-        <img src ="images/Group 206.png" > 
-        <img src ="images/image2.png" >    
-        <img src ="images/image3.png" >       
+        <div class = "image">
+            <img class = "normal" src ="images/image1.png" >
+            <img class = "colored" src = "images/image1C.png"> 
+            </div>             <div class = "image">
+                <img class = "normal" src ="images/image2.png" >
+                <img class = "colored" src = "images/image2C.png"> 
+                </div>             <div class = "image">
+                    <img class = "normal" src ="images/image3.png" >
+                    <img class = "colored" src = "images/image3C.png"> 
+                    </div>          
     </div>
 
     <div class="blue_panel" id="box2">
@@ -151,13 +234,19 @@
         </div>
 
      </div>
-
  
     <div id="head2"><h2>DEVELOPERS</h2></div>
     <div class = "images2">
-        <img src ="images/image4.png" > 
-        <img src ="images/image5.png" >    
-        <img src ="images/image6.png" >       
+        <div class = "image">
+            <img class = "normal" src ="images/image4.png" >
+            <img class = "colored" src = "images/image4C.png"> 
+            </div>             <div class = "image">
+                <img class = "normal" src ="images/image5.png" >
+                <img class = "colored" src = "images/image5C.png"> 
+                </div>             <div class = "image">
+                    <img class = "normal" src ="images/image6.png" >
+                    <img class = "colored" src = "images/image6C.png"> 
+                    </div>      
     </div>    
     
 
@@ -208,9 +297,16 @@
 
      </div>
      <div class = "images3">
-        <img src ="images/image4.png" > 
-        <img src ="images/image5.png" >    
-        <img src ="images/image6.png" >            
+        <div class = "image">
+            <img class = "normal" src ="images/image4.png" >
+            <img class = "colored" src = "images/image4C.png"> 
+            </div>             <div class = "image">
+                <img class = "normal" src ="images/image5.png" >
+                <img class = "colored" src = "images/image5C.png"> 
+                </div>             <div class = "image">
+                    <img class = "normal" src ="images/image6.png" >
+                    <img class = "colored" src = "images/image6C.png"> 
+                    </div>             
     </div>
     <div class="blue_panel" id="box4">
         <p></p>
@@ -258,7 +354,7 @@
         </div>
 
      </div>
-
+    
 </div><div id = "bottom_links">
     <div id="map">
         <div id = "dep">
