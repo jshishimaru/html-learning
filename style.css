@@ -330,16 +330,132 @@ h4{
   
     #menubutton{
       display: none;
-      position: fixed;
-      top: 210px;
+      position: absolute;
+      top: 60px;
       left: 50px;
     }
+
+
+
+.main_body_mobile{
+      display: none;
+}
 @media(max-width: 800px){
       .navigationbar{
         display: none;
       }
+      .main_body{
+            display: none;
+      }
+      #bottom_links{
+            display: none;
+      }
       #menubutton{
         display: block;
       }
+      .main_body_mobile{
+            display: flex;
+            flex-direction: column;
+      }
     }
+
+
+.intro{
+    
+      display: flex;
+      flex-direction: column;
+      color: white;
+      font-family: 'Noto Sans';
+      padding-left: 50px;
+      background-color: rgba(81, 131, 184, 1);
+      
+
+
+}
+
+#grp2m{
+
+      font-size: 30px;
+      font-weight: 20;
+      margin-top: 30px;
+      margin-bottom: -25px;
+     
+      
+
+
+}
+
+#para1m{
+       
+      font-family: 'Lato';
+      font-size: 18px;
+      margin-left: 50px;
+      margin-right: 50px;
+      margin-top: 30px;
+
+
+}
+#para3m{
+       margin-bottom: 20px;
+}
+.designers{
+       
+      font-family: 'Noto Sans';
+      margin-left: 50px;
+      font-size: 25px;
+      font-weight: normal;
+
+}
+
+/* .person{
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       justify-content: center;
+       flex-wrap: nowrap;
+} */
+.outer{
+       display: grid;
+       grid-template: 1fr/1fr;
+       place-items: center;
+}
+
+.outer > * {
+      grid-column: 1/1;
+      grid-row: 1/1;
+}
+
+.outer .backgroundm{
+      z-index: 1;
+}
+
+.outer .person{
+       z-index: 2;
+}
+
+.backgroundm{
+
+
+      background-color: rgba(81, 131, 184, 1);
+      opacity: 1;
+      height: 250px;
+      width: 100%;
+
+}
+
+#bottom_linksm{
+      display: flex;
+      flex-wrap: wrap;
+      padding-left: 50px;
+      padding-right: 50px;
+      justify-content: space-between;
+      margin-top: 50px;
+}
+
+.infom{
+       margin-top: -40px;
+       margin-left: 80px;
+}
+
+
 
